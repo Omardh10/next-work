@@ -1,0 +1,111 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+.nav{
+  background-color: #092346;
+}
+
+.home {
+  width: 100%;
+  height: 100vh;
+  background-image: url('/images/Mask group.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #061c38;
+}
+.mgs:hover{
+  box-shadow: 0 0 10px #b4b4b4;
+  transition: .5s;
+  border-radius: 20px;
+}
+.crdsm{
+  cursor: pointer;
+}
+.crd:hover{
+  scale: 1.1;
+  transition: 0.5s;
+}
+ .cardsm{
+  padding: 20px;
+  box-shadow: 0 0 15px #c4c3c3;
+  border-radius: 10px;
+ }
+ .crdsm:hover{
+  box-shadow: 0 0 10px #969595;
+  transition: 0.3s;
+ }
+ .img-clients{
+  width: 100%;
+  height: 100vh;
+ }
+ .h2{
+  font-size: 30px;
+ }
+ .hlol{
+  color:#3684FF;
+ }
+ .bhh{
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 40px;
+ }
+ .imgs{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+
+ .img{
+  width: 60px;
+ }
+.li{
+  cursor: pointer;
+}
+.dviv{
+  background-color: #f0ecec;
+  padding: 10px 15px;
+  width: 80%;
+  height: 70px;
+  margin: auto;
+}
+.imggg{
+  margin: auto;
+}
+.image{
+  margin: auto;
+}
+.prtc:hover{
+  box-shadow:0 0 15px #8d8c8c;
+  transition: .5s;
+}
+
+@media (max-width:450px) {
+  .tlemel{
+    flex-direction: column;
+    
+  }
+}
+@media (max-width:1000px) {
+  .sey{
+    flex-wrap: wrap;
+  }
+}

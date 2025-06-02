@@ -1,0 +1,14 @@
+
+.btn{
+    background-color: rgb(33, 3, 117);
+    color:#fff;
+    padding: 8px 40px;
+    border-radius: 20px;
+}
+.btn:hover{
+    background-color: rgb(17, 1, 63);
+    cursor: pointer;
+}
+.par{
+    font-size: 30px;
+}
